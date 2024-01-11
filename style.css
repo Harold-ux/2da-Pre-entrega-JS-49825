@@ -1,0 +1,47 @@
+body {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    letter-spacing: 0.099rem;
+
+}
+
+h1 {
+    margin-top: 20%;
+    text-align: center;
+    color: #ccc;
+    font-weight: normal;
+}
+
+/* Contenedor principal */
+#citasContainer {
+    max-width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 100px;
+    letter-spacing: 0.30rem;
+    font-weight: 200;
+}
+
+.inline-block-element {
+    color: rgb(123, 177, 175);
+    -webkit-text-stroke: 0.5px rgb(48, 46, 46);
+    display: flexbox;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+
+/* Estilo para resaltar citas confirmadas */
+.confirmada {
+    color: rgb(29, 169, 29);
+    font-weight: 200;
+}
+
+.claseEspecial {
+    white-space: pre-line;
+  }
+  
